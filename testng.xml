@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="BookHive_Capstone-Project">
+
+<classes>
+    <class name="com.capstone_project.capstone_project.authentication.authentic"/>
+    <class name="com.capstone_project.capstone_project.BookHive.deleteMethod"/>
+    <class name="com.capstone_project.capstone_project.BookHive.getMethod"/>
+    <class name="com.capstone_project.capstone_project.BookHive.postMethod"/>
+    <class name="com.capstone_project.capstone_project.BookHive.updateMethod"/>
+    <class name="com.capstone_project.capstone_project.Orders.deleteMethod"/>
+    <class name="com.capstone_project.capstone_project.Orders.getMethod"/>
+    <class name="com.capstone_project.capstone_project.Orders.postMethod"/>
+
+
+</classes>
+
+
+
+    </test>
+</suite>
